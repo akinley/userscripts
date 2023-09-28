@@ -1,14 +1,12 @@
 # Helpful UserScripts
 
-UserScripts are custom JavaScript that runs on web pages in your browser. You need a browser extension to run them. I recommend [Violentmonkey](https://violentmonkey.github.io) it's open-source and actively maintained, and has a straightforward UI.
+UserScripts are custom JavaScript that runs on web pages in your browser. You need a browser extension to run them. I use [Violentmonkey](https://violentmonkey.github.io): it's available [for Chrome and derivatives](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag), [for Firefox](https://addons.mozilla.org/firefox/addon/violentmonkey/), and [for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao). Other popular options include TamperMonkey and GreaseMonkey.
 
-- Chrome and derivatives: https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag
-- Firefox: https://addons.mozilla.org/firefox/addon/violentmonkey/
-- Microsoft Edge: https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao
+Once you have a userscript manager, installed, just click on one of the links to a script below. Files with a `.user.js` extension will automatically be detected as userscripts, and you'll be prompted to install them. By default, scripts will be auto-updated periodically; you can disable automatic updates and/or manually check for and install updates instead.
 
-Once you have VM, or another userscript manager, installed, just click on one of the links to a script below. Files with a `.user.js` extension will be detected as a userscript, and you'll be prompted to install it. By default, scripts will be auto-updated periodically; you can disable automatic updates and/or manually check for and install updates instead.
+You can also write your own scripts, and find many more on [GreasyFork](https://greasyfork.org/) and [OpenUserJS](https://openuserjs.org/). Violentmonkey lets you quickly search for scripts for the current site.
 
-You can also write your own scripts, and find many more on [GreasyFork](https://greasyfork.org/) and [OpenUserJS](https://openuserjs.org/).
+## Available Scripts
 
 ### AWS
 
