@@ -24,6 +24,10 @@ Saves you from having to manually click "Continue" every time your GitHub SSO se
 
 Saves you from having to manually open the diff view options, check "Hide whitespace", and click "Apply and reload" every time you view a PR diff. There's a [long request thread on GitHub](https://github.com/orgs/community/discussions/5486) to just remember this permanently like the view mode (split vs. unified) but it's been nearly 2 years, so clearly no official fix is forthcoming.
 
+#### [Toggle all PR files in diff view](https://raw.githubusercontent.com/alyssa-indigo/userscripts/main/github-toggle-all-diffs.user.js)
+
+Adds a button in the Files tab / diff view on a PR to toggle all files <i>en masse</i>. When in a mixed state, if more files are expanded than collapsed, all files will be collapsed, and vice versa, ending in a consistent state. Note that the new button _replaces_ the "view in workspace" button since I don't use that; if there's interest, I can add a userscript setting so it's configurable.
+
 ### PagerDuty
 
 #### [Automatically refresh SSO sessions on PagerDuty](https://raw.githubusercontent.com/alyssa-indigo/userscripts/main/pagerduty-auto-sso.user.js)
