@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        GitHub SSO - Auto Continue
-// @version     1.0
+// @version     1.0.1
 // @namespace   none
 // @grant       none
 // @run-at      document-idle
@@ -21,4 +21,4 @@ function clickContinue() {
 clickContinue()
 
 observer = new MutationObserver(clickContinue)
-observer.observe(document.body, { childNodes: true, subtree: true })
+observer.observe(document.body, { childList: true, subtree: true })
