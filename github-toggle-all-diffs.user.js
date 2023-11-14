@@ -3,7 +3,8 @@
 // @description Adds a button to expand/collapse all file diffs on a PR.
 // @namespace   none
 // @grant       none
-// @version     1.0
+// @version     1.1
+// @match       https://github.com/*/pull/*/commits/*
 // @match       https://github.com/*/pull/*/files
 // ==/UserScript==
 
