@@ -6,6 +6,10 @@ Once you have a userscript manager, installed, just click on one of the links to
 
 You can also write your own scripts, and find many more on [GreasyFork](https://greasyfork.org/) and [OpenUserJS](https://openuserjs.org/). Violentmonkey lets you quickly search for scripts for the current site.
 
+## Note for Chrome users
+
+If you get a warning saying you can’t install extensions or user scripts from this site when clicking on one of the links below, click on the file above to view the code, then click the “Raw” button just above the code. I’ve only seen this happen for the Okta SSO helper script; apparently it’s a “security” feature in Chrome that may or may not help protect some idiots who click everything with blind abandon, at the cost of annoying and frustrating people who actually know what they’re doing... you know, like most so-called security features.
+
 ## Scripts to reduce SSO-related tedium
 
 - **[AWS — Always allow CLI login requests](https://raw.githubusercontent.com/akinley/userscripts/main/sso-aws-cli.user.js):** Saves you from having to manually click “Allow” every time your AWS SSO session expires on the command-line. Get up and stretch your legs while it’s meandering through a zillion redirects instead.
