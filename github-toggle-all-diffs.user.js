@@ -1,12 +1,17 @@
 // ==UserScript==
-// @name        GitHub - Toggle All Diffs
-// @description Adds a button to expand/collapse all file diffs on a PR.
-// @namespace   none
-// @grant       none
-// @version     1.1
-// @match       https://github.com/*/pull/*/commits/*
-// @match       https://github.com/*/pull/*/files
+// @name          GitHub — Toggle All Diffs
+// @description   Adds a button to expand/collapse all file diffs on a PR.
+// @author        Alyssa Kinley
+// @license       unlicense
+// @namespace     none
+// @grant         none
+// @version       1.2
+// @match         https://github.com/*/pull/*/commits/*
+// @match         https://github.com/*/pull/*/files
+// @match         https://github.com/*
 // ==/UserScript==
+
+/* Have to use greedy @match because all navigation within GitHub is AJAX :( */
 
 const getLabel = (isExpanded) => isExpanded ? "Collapse all" : "Expand all"
 
