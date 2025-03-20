@@ -10,6 +10,10 @@ You can also write your own scripts, and find many more on [GreasyFork](https://
 
 If you get a warning saying you can’t install extensions or user scripts from this site when clicking on one of the links below, click on the file above to view the code, then click the “Raw” button just above the code. I’ve only seen this happen for the Okta SSO helper script; apparently it’s a “security” feature in Chrome that may or may not help protect some idiots who click everything with blind abandon, at the cost of annoying and frustrating people who actually know what they’re doing... you know, like most so-called security features.
 
+## Global scripts
+
+- **[Right click anywhere](https://raw.githubusercontent.com/akinley/userscripts/main/global-right-click-anywhere.user.js):** Always get the the default context menu while holding Shift. Useful on websites with annoying custom context menus or right-click prevention.
+
 ## Scripts to reduce SSO-related tedium
 
 - **[AWS SSO — Auto allow CLI login requests](https://raw.githubusercontent.com/akinley/userscripts/main/sso-aws-cli.user.js):** Saves you from having to manually click “Allow” every time your AWS SSO session expires on the command-line.
