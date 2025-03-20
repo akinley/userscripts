@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name        GitHub SSO - Auto Continue
-// @version     1.0.1
-// @namespace   none
-// @grant       none
-// @run-at      document-idle
-// @match       https://github.com/*
+// @name          GitHub SSO — Auto Continue
+// @description   Automatically continue to your SSO provider when your session expires.
+// @author        Alyssa Kinley
+// @license       unlicense
+// @namespace     none
+// @grant         none
+// @version       1.0.1
+// @match         https://github.com/*
 // ==/UserScript==
 
 let observer
@@ -17,8 +19,6 @@ function clickContinue() {
     observer.disconnect()
   }
 }
-
-clickContinue()
 
 observer = new MutationObserver(clickContinue)
 observer.observe(document.body, { childList: true, subtree: true })

@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name          GitHub - Absolute Timestamps
-// @description   Replaces relative timestamps (e.g. "3 hours ago") with absolute ones.
+// @name          GitHub — Absolute Timestamps
+// @description   Replace relative timestamps (e.g. "3 hours ago") with absolute ones.
 // @author        Alyssa Kinley
 // @license       unlicense
 // @namespace     none

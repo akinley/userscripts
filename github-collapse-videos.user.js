@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          GitHub - Collapse Videos
+// @name          GitHub — Collapse Videos
 // @description   Collapse videos by default in user content on GitHub.
 // @author        Alyssa Kinley
 // @license       unlicense

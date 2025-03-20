@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          GitHub — Toggle All Diffs
-// @description   Adds a button to expand/collapse all file diffs on a PR.
+// @description   Expand or collapse all file diffs on a PR with one click.
 // @author        Alyssa Kinley
 // @license       unlicense
 // @namespace     none

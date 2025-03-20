@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          GitHub - Fix Anchor Links
+// @name          GitHub — Fix Anchor Links
 // @description   Fix in-page / section header links in Markdown content.
 // @author        Alyssa Kinley
 // @license       unlicense

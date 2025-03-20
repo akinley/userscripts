@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          Okta SSO — Auto Continue
-// @description   Collapse videos by default in user content on GitHub.
+// @description   Automatically continue logging in when your email address is already saved.
 // @author        Alyssa Kinley
 // @license       unlicense
 // @namespace     none

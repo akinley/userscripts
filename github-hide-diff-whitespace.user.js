@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          GitHub - Hide Diff Whitespace
+// @name          GitHub — Hide Diff Whitespace
 // @description   Automatically toggles on the option to hide whitespace on PR diffs.
 // @author        Alyssa Kinley
 // @license       unlicense
