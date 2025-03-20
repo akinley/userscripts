@@ -6,7 +6,6 @@
 // @namespace     none
 // @grant         none
 // @version       1.1
-// @run-at        document-end
 // @match         https://github.com/*/pull/*/files
 // @match         https://github.com/*
 // ==/UserScript==

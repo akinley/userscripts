@@ -22,6 +22,8 @@ You can also write your own scripts, and find many more on [GreasyFork](https://
 
 - **[Always hide whitespace changes on PR diffs](https://raw.githubusercontent.com/akinley/userscripts/main/github-hide-diff-whitespace.user.js):** Saves you from having to manually open the diff view options, check “Hide whitespace”, and click “Apply and reload” every time you view a PR diff. There’s a [years-long request thread on GitHub](https://github.com/orgs/community/discussions/5486) with many people asking to just remember this permanently like the view mode (split vs. unified) but clearly no official fix is forthcoming.
 
+- **[Collapse annotations on PR diffs](https://raw.githubusercontent.com/akinley/userscripts/main/github-collapse-pr-annotations.user.js):** Makes annotations (i.e. comments from bots) on PR diffs collapsible, and collapses them by default.
+
 - **[Collapse videos by default in user content](https://raw.githubusercontent.com/akinley/userscripts/main/github-collapse-videos.user.js)**
 
 - **[Fix anchor links in user content](https://raw.githubusercontent.com/akinley/userscripts/main/github-fix-anchor-links.user.js):** Auto-generated permalinks to section headers in user content, like project README files, are broken by default and have been for years.
