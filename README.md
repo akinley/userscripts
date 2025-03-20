@@ -14,15 +14,17 @@ If you get a warning saying you can’t install extensions or user scripts from 
 
 - **[Right click anywhere](https://raw.githubusercontent.com/akinley/userscripts/main/global-right-click-anywhere.user.js):** Always get the the default context menu while holding Shift. Useful on websites with annoying custom context menus or right-click prevention.
 
-## Scripts to reduce SSO-related tedium
+## Scripts to reduce SSO- and federated login-related tedium
 
-- **[AWS SSO — Auto allow CLI login requests](https://raw.githubusercontent.com/akinley/userscripts/main/sso-aws-cli.user.js):** Saves you from having to manually click “Allow” every time your AWS SSO session expires on the command-line.
+- **[AWS — Auto allow CLI login requests](https://raw.githubusercontent.com/akinley/userscripts/main/sso-aws-cli.user.js):** Saves you from having to manually click “Allow” every time your AWS SSO session expires on the command-line.
 
-- **[GitHub SSO — Auto continue to SSO provider](https://raw.githubusercontent.com/akinley/userscripts/main/sso-github.user.js):** Saves you from having to manually click “Continue” every time your GitHub SSO session expires.
+- **[CodeCov — Auto login with GitHub](https://raw.githubusercontent.com/akinley/userscripts/main/sso-codecov.user.js)**
 
-- **[Okta SSO - Auto continue login with saved email](https://raw.githubusercontent.com/akinley/userscripts/main/sso-okta.user.js):** Automatically checks “Remember me” and clicks “Next” to log into Okta with a previously remembered email address, so you only have to enter your password and/or touch your Yubikey to log back in.
+- **[GitHub — Auto continue to SSO provider](https://raw.githubusercontent.com/akinley/userscripts/main/sso-github.user.js):** Saves you from having to manually click “Continue” every time your GitHub SSO session expires.
 
-- **[PagerDuty SSO — Auto continue to SSO provider](https://raw.githubusercontent.com/akinley/userscripts/main/sso-pagerduty.user.js):** Saves you from having to manually click “Log in with single sign-on” every time your PagerDuty SSO session expires.
+- **[Okta - Auto continue login with saved email](https://raw.githubusercontent.com/akinley/userscripts/main/sso-okta.user.js):** Automatically checks “Remember me” and clicks “Next” to log into Okta with a previously remembered email address, so you only have to enter your password and/or touch your Yubikey to log back in.
+
+- **[PagerDuty — Auto continue to SSO provider](https://raw.githubusercontent.com/akinley/userscripts/main/sso-pagerduty.user.js):** Saves you from having to manually click “Log in with single sign-on” every time your PagerDuty SSO session expires.
 
 ## Scripts for GitHub
 
