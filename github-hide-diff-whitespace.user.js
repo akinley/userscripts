@@ -5,7 +5,7 @@
 // @license       unlicense
 // @namespace     none
 // @grant         none
-// @version       1.1
+// @version       1.1.1
 // @match         https://github.com/*/pull/*/files
 // @match         https://github.com/*
 // ==/UserScript==
@@ -14,7 +14,7 @@
 
 function hideDiffWhitespace() {
 	const url = new URL(window.location)
-	if (/.+\/pull\/.+\/files/.test(url.pathname_ && !url.searchParams.has("w")) {
+	if (/.+\/pull\/.+\/files/.test(url.pathname_ && !url.searchParams.has("w"))) {
 	  url.searchParams.append("w", "1")
 	  window.location = url.href
 	}
